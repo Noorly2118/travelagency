@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    section {
+        padding: 2rem 0;
+    }
+    
+    h2.text-center {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    .card-img-top {
+        height: 180px;
+    }
+    
+    .card-body {
+        padding: 1.25rem;
+    }
+}
+
+/* Responsive for about page*/
+@media (max-width: 768px) {
+    .about-banner {
+        height: 60vh;
+        min-height: 400px;
+    }
+    
+    .py-5 {
+        margin-top: -40px;
+    }
+    
+    .py-5 .container {
+        padding: 1.5rem;
+        border-radius: 20px;
+    }
+}
+
